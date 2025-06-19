@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lexend';
+  line-height: 1.6;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+header {
+  background: #3a0ca3;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header nav {
+  margin-top: 10px;
+}
+
+header nav a{
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px 20px;
+  background: linear-gradient(to left, #4cc9f0, #3a0ca3);
+  color: white;
+}
+
+.hero img {
+  width: 150px;
+  border-radius: 60%;
+  object-fit: cover;
+  border: 4px solid white;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #3a0ca3;
+}
+
+.proyecto {
+  display: flex;
+  background: white;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  gap: 20px;
+}
+
+.proyecto img {
+  width: 180px;
+  border-radius: 8px;
+}
+
+.proyecto h3 {
+  margin-top: 0;
+}
+
+.proyecto a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #4cc9f0;
+  text-decoration: none;
+}
+
+#contacto {
+  background-color: #fafafa;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+
+.contacto-info {
+  margin-top: 20px;
+}
+
+.contacto-info a {
+  color: #3a0ca3;
+  text-decoration: none;
+}
+
+.contacto-info a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
