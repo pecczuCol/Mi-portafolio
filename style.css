@@ -107,3 +107,43 @@ footer {
   padding: 20px;
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  .hero img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+  }
+
+  .proyecto {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .proyecto img {
+    width: 90%;
+    max-width: 300px;
+  }
+
+  header nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+  }
+
+  section {
+    padding: 30px 15px;
+  }
+
+  .contacto-info p {
+    font-size: 0.95rem;
+  }
+}
